@@ -80,6 +80,14 @@ tasks/Laboratory_2/
 ## Сборка и запуск проекта
 
 **Сборка:**
+```bash
+docker build -t laboratory2 .
+
+# Запуск тестов
+docker run --rm laboratory2
+```
+
+### Без докера
 
 ```bash
 # Создание директории для сборки
